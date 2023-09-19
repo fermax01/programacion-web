@@ -1,28 +1,51 @@
 <!DOCTYPE html>
 
-<html LONG=" ES">
+<html LONG="es">
     <head>
-     <META charset="UTS-8">
-        <meta name="description "content="esta es mi primera pagina web">
-        <meta name="keyworks"content="primera,html,css,web">
-     <META name="viewport" content="width= device-with, initial-scale=1.0">
+     <META charset="UTF-8">
+        <meta name ="description "content="esta es mi primera pagina web">
+        <meta name ="keyworks"content="primera,html,css,web">
+        <meta name ="viewport" content="width= device-with, initial-scale=1.0">
         <LINk rel="icon" href ="lobo.jpg" type="image/jpg"sizes=15x15>
        <TItle>PROGRAMACION WEB</TItle>
-
+        <link rel="stylesheet" href="estilos/style.css">
+        
     </head >
     <body>
         hola mundo
-        <h1>TITULO 1</h1>
-        <h2> TITULO 2</h2>
+        <button id="boton">
+            Comprar Dildo
+        </button>
+        <div id="contenedor">
+            <h1 id="titulo">TITULO NUEVO</h1>
+            <img src="https://th.bing.com/th/id/R.36df7342da9d363de724345299e4d1bc?rik=mGmuE4NRbV4WRQ&pid=ImgRaw&r=0" />
+        </div>
+        <h2 > TITULO 2</h2>
         <h3>TITULO 3</h3>
         <h4>TITULO 4</h4>
         <h5>TITULO 5</h5>
         <h6>TITULO 6</h6>
-        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. <hr> Voluptate, suscipit aut. Fugiat beatae 
-            eos expedita labore eaque doloribus magni voluptatum! Officiis <hr> odio ratione aliquid quasi, nemo nostrum 
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Voluptate, suscipit aut. Fugiat beatae 
+            eos expedita labore eaque doloribus magni voluptatum! Officiis <hr color ="black" size="spx" width="100%"> odio ratione aliquid quasi, nemo nostrum 
             labore distinctio quibusdam!</P>
             <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad totam dolore, sit velit optio porro id 
                 reprehenderit nemo veritatis. Illo voluptas quo optio voluptate odio. Libero ut sed ad eum!</P>
+                <h3>
+                    FORMATO DE TEXTO
+                </h3>
+                <HR>
+        
+                <P><B> TEXTO NEGRITA </B></P>
+                <P><i> TEXTO cursiva </i></P>
+                <P><del> TEXTO TACHADO </del></P>
+                <P><em> TEXTO ENFATIZADO </em></P>
+                <P><mark>texto subrayado</mark></P>
+                <p></p>
 
     </body>
+    <script>
+        document.getElementById("boton").addEventListener("click", () => {
+            alert("Hola")
+        })
+    </script>
 </html>
