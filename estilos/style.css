@@ -1,13 +1,14 @@
 body
 {
+    color: #000;
     /* background-color: red; */
-    background-image: url("https://th.bing.com/th/id/R.36df7342da9d363de724345299e4d1bc?rik=mGmuE4NRbV4WRQ&pid=ImgRaw&r=0");
+    background-image: url(/paisaje.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /* width: 50%; */
     /* height: 50px; */
-    color: red;
-    font-family: Arial , 'Times New Roman';
+    
+    font-family: Arial ,'Times New Roman';
 }   
 
 #titulo
