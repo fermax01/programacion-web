@@ -9,6 +9,7 @@
         <LINk rel="icon" href ="TORTA.JPG" type="image/jpg"sizes=15x15>
        <TItle>RECETA DE TORTAS DE JAMON</TItle>
        
+       
         
     </head >
     <body>
@@ -62,49 +63,48 @@
 <li>La mayonesa puede omitirse o sustituirse por algún aderezo.</li>
 <footer>
     <p>
-       FERNANDO MAXIMILIANO SERNA TORRES
- <a href="https://github.com/fermax01/programacion-web" target="_blank">REPOSITORIO</a>
+       - FERNANDO MAXIMILIANO SERNA TORRES
+ <a href="https://github.com/fermax01/programacion-web" target="_blank">-REPOSITORIO</a>
         <a href="index.html"> IR A PAGINA PRINCIPAL </a>
-        <a href="#titulo">IR A PAGINA DE INICIO</a>
+        <a href="#titulo"> IR A PAGINA DE INICIO</a>
  
     </p>
 </footer>
+<table border="1">
+    <caption><b>Información Nutricional</b></caption>
+    <tr>
+        <td>Grasas</td>
+        <td>Proteina</td>
+        <td>Azucares</td>
+        <td>Sodio</td>
+    </tr>
+    <tr>
+        <th>14,16g</th>
+        <th>14,16g</th>
+        <th>0,51g</th>
+        <th>818mg</th>
+    </tr>
+  </table>
 
-<section>
+
     
-    <form class="formulario">
-        <fieldset>
-            <legend>Contacto</legend> <!--Título del formulario-->
+    
+  <h2>Contacto</h2>
+  <fieldset>
+    <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input placeholder="Nombre" type="text" id="nombre" name="nombre" required><br><br>
 
-            <div class="contenedor-campos">
-                <div class="campo">
-                    <label>Nombre</label>
-                    <input class="input-text" type="text" placeholder="Nombre"><!--Existen otros types como checkbox, radio, tel, email, number-->
-                </div>
+        <label for="correo">Correo Electrónico:</label>
+        <input placeholder="Correo" type="email" id="correo" name="correo" required><br><br>
 
-                <div class="campo">
-                    <label>Teléfono</label>
-                    <input class="input-text" type="tel" placeholder="Télefono">
-                </div>
+        <label for="comentario">Comentario:</label><br>
+        <textarea id="comentario" name="comentario" rows="4" cols="50" required></textarea><br><br>
 
-                <div class="campo">
-                    <label>Correo</label>
-                    <input class="input-text" type="email" placeholder="Correo">
-                </div>
-
-                <div class="campo">
-                    <label>Mensaje</label>
-                    <textarea class="input-text" type="comentario" placeholder="comentario"  ></textarea>
-                </div>
-            </div>
-            <div class="alinear-derecha flex">
-                <input class="boton w-sm-100"  type="submit" value="Enviar"> <!--Botón "Enviar"-->
-            </div>
-            
-
-
-        </fieldset>
+        <input type="submit" value="Enviar">
     </form>
-</section>
+  </fieldset>
+
+    
     </body>
 </html>
