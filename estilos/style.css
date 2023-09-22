@@ -2,7 +2,7 @@ body
 {
     color: #000;
     /* background-color: red; */
-    background-image: url(/paisaje.jpg);
+    background-image: url(/chavotorta.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /* width: 50%; */
@@ -13,7 +13,7 @@ body
 
 #titulo
 {
-    color: blue;
+    color: black;
 }
 
 #contenedor
@@ -28,3 +28,8 @@ body
 {
     width: 100px;
 }
+#seccion
+{
+
+}
+

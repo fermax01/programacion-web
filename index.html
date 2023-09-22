@@ -78,7 +78,83 @@
     <source src="audio.mp3">
 </audio>
 
+<h1>Formularios</h1>
+<form action="">
+    <label for="Nombre">Ingresa tu nombre</label>
+    <input type="text" name="Nombre" id="Nombre" placeholder="ingresar nombre">
+    <label for="Correo">Ingresa tu correo </label>
+    <input type="text" name="Correo" id="Correo" placeholder="ingresar correo">
+    <label for="Contrasena">Ingresa tu Contraseña</label>
+    <input type="password" name="Correo" id="Correo" placeholder="ingresar contraseña">
+</form>
 
+
+<table class="propiedades">
+    <thead>
+        <tr>
+            <th>Asignatura</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+            <th>Sábado</th>
+            <th>Domingo</th>
+        </tr>
+    </thead>
+
+    <tbody> <!--. Mostrar los resultados -->
+
+            <tr>
+                <td> Hola</td>
+                <td> Este</td>
+                <td>Es</td>
+                <td>Una </td>
+                <td>Tabla  </td>
+                <td>Tabla  </td>
+                <td>Tabla  </td>
+                <td>Tabla  </td>
+            </tr>
+            
+        </tbody>
+</table>
+
+<section>
+    
+    <form class="formulario">
+        <fieldset>
+            <legend>Contacto</legend> <!--Título del formulario-->
+
+            <div class="contenedor-campos">
+                <div class="campo">
+                    <label>Nombre</label>
+                    <input class="input-text" type="text" placeholder="Nombre"><!--Existen otros types como checkbox, radio, tel, email, number-->
+                </div>
+
+                <div class="campo">
+                    <label>Teléfono</label>
+                    <input class="input-text" type="tel" placeholder="Télefono">
+                </div>
+
+                <div class="campo">
+                    <label>Correo</label>
+                    <input class="input-text" type="email" placeholder="Correo">
+                </div>
+
+                <div class="campo">
+                    <label>Mensaje</label>
+                    <textarea class="input-text"></textarea>
+                </div>
+            </div>
+            <div class="alinear-derecha flex">
+                <input class="boton w-sm-100"  type="submit" value="Enviar"> <!--Botón "Enviar"-->
+            </div>
+            
+
+
+        </fieldset>
+    </form>
+    </section>
  </body>
     <!-- <script>
         document.getElementById("boton").addEventListener("click", () => {
