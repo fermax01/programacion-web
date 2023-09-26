@@ -1,10 +1,19 @@
 body{
-    margin: 40px;
+  
+          
+            height: 100vh;
+            margin: 0;
 
 }
 
 .container{
-    display: grid;
+    
+   
+    padding: 20px;
+    border: 1px solid #ccc;
+
+    
+    display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     background-color: #fff;
@@ -22,6 +31,7 @@ body{
 
 
 .header{
+    text-align: center;
     grid-column: 1/6;
     /* border: 1px solid black; */
 }
